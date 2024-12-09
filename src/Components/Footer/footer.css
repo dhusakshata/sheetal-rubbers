@@ -1,0 +1,187 @@
+* {
+  font-family: 'Arial', sans-serif; 
+  font-style: normal; 
+
+  margin: 0; 
+  padding: 0; 
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  background-color: #000;
+  color: white;
+  padding: 10px 10px;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  
+  
+}
+.address {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  padding: 10px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  font-size: 14px;
+}
+
+.logo img {
+  width: 150px; 
+  height: auto; 
+  margin-bottom: 15px; 
+}
+
+.address-section {
+  display: flex;
+  flex-direction: column; 
+}
+
+.address-info h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.address-info p {
+  font-size: 14px;
+  margin: 5px 0; 
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center; 
+  gap: 15px; /* Space between icons */
+  margin-top: 15px; /* Add spacing above the icons */
+}
+
+.social-icon {
+  width: 30px; /* Size of the icons */
+  height: auto; 
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Add smooth animation */
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  opacity: 0.8; /* Dim the icon on hover */
+}
+
+/* Quick Links Section */
+.quick-links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 20px;
+  
+}
+
+.quick-links h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.quick-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.quick-links a:hover {
+  color: #1e90ff;
+}
+
+.news-letter {
+  display: flex;
+  flex-direction: column;
+  color: #fff; /* White text */
+  padding: 40px 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add shadow */
+  max-width: 600px; /* Limit the width */
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -120px;
+}
+
+.news-letter h2 {
+  font-size: 14px;
+
+  color: white;
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between input and button */
+  width: 100%; /* Make form responsive */
+  max-width: 400px;
+}
+
+.email-input {
+  flex: 1; /* Input takes the remaining space */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  outline: none; /* Remove focus outline */
+  transition: border-color 0.3s ease; /* Smooth border-color transition */
+}
+
+.email-input:focus {
+  border-color: #ff5722; /* Highlight border on focus */
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  background-color: #ff5722; /* Bright button color */
+  color: #fff; /* White text */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth background-color transition */
+}
+
+.subscribe-button:hover {
+  background-color: #e64a19; /* Darker color on hover */
+}
+
+/* Map Section */
+.map-container {
+  flex: 1;
+  max-width: 500px; 
+  height: 300px; 
+  border: 2px solid white;
+  border-radius: 8px;
+  overflow: hidden; 
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+
+.footer-bottom-text {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; 
+  text-align: center; 
+  margin-top: -30px; 
+  padding-top: 5px; 
+  border-top: 1px solid #fff; 
+  font-size: 14px; 
+  color: #fff; 
+}
